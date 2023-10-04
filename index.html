@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
 
+    <script src="https://kit.fontawesome.com/9f66eb476b.js" crossorigin="anonymous"></script>
+
     <title>My Portfolio</title>
 </head>
 <body>
@@ -27,7 +29,7 @@
                     <li><a href="#AboutMe">About Me</a></li>
                     <li><a href="#Education">Education</a></li>
                     <li><a href="#Projects">Projects</a></li>
-                    <li><a href="#Blog">Blog</a></li>
+                    <!-- <li><a href="#Blog">Blog</a></li> -->
                     <li><a href="#ContactMe" class="active sp-button" >Contact Me</a></li>
                 </ul>
             </div>
@@ -66,16 +68,16 @@ const  t-amiine  = {
     
         name: "amine",
         age: 18,
-        pronouns: "he/his",
+        pronouns: "he/him",
         school: "YouCode, Safi",
         interests: ["sports", "movies", "travel"],
-        stack: "Full stack web developer",
+        stack: "web developer Student",
         address: {
-        city: "zemamra",
-        country: "Morocco", 
+            city: "zemamra",
+            country: "Morocco", 
         }, 
-        code: ["HTML", "CSS", "JAVASCRIPT", ".."],
-        tools: ["Git", "Github", "Adobe-XD" , "Figma", "adobe-illustrator"], 
+        code: ["HTML", "CSS", "C Language"],
+        tools: ["Git", "Github", "Adobe-XD" , "Figma", "adobe-Illustrator", "adobe-Photoshop"], 
         languages: ["Arabic", "French", "english"],
 };
 </pre>
@@ -134,14 +136,14 @@ const  t-amiine  = {
                     <a href="https://github.com" target="_blank"  class="sp-button">View source code</a>
                 </div>
 
-                <img src="img/big-proj-img.png" alt="project image">
+                <img src="img/proj-img.png" alt="project image">
             </div>
             
         </div>
     </section>
 
     <!-- BLOG SECTION -->
-    <section id="Blog">
+    <!-- <section id="Blog">
         <div class="container">
 
             <div class="p-Head d-flex">
@@ -173,16 +175,19 @@ const  t-amiine  = {
             </div>
             
         </div>
-    </section>
+    </section>-->
 
     <!-- CONTACT ME SECTION -->
-    <section id="contactMe">
+    <section id="ContactMe">
         <div class="container d-flex">
 
             <div class="social-links">
                 <div class="social">
                     <h2>Follow Me In :</h2>
-                    
+                    <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
             </div>
 
@@ -192,25 +197,26 @@ const  t-amiine  = {
                     <div class="f-row d-flex">
 
                         <div class="brd">
-                            <input type="text" placeholder="Enter Your Name">
+                            <input type="text" placeholder="Enter Your Name" maxlength="30" required>
                         </div>
                         <div class="phone-s brd">
                             <span>+ 212</span>
-                            <input type="tel" placeholder="06 00 00 00 00">
+                            <input type="tel" placeholder="06 00 00 00 00" minlength="10" maxlength="10" required>
                         </div>
                     </div>
 
                     <div class="brd email-input">
-                        <input type="email" name="email" placeholder="Enter Your Email Address">
+                        <input type="email" name="email" placeholder="Enter Your Email Address" required>
                     </div>
 
                     <div class="terms d-flex">
                         <div class="pr-term">
-                            <input type="checkbox" id="terms">
+                            <input type="checkbox" id="terms" required>
                             <label for="terms">I Agree Ihave Read The <a href="Cstr.html">Terms Of Data Processing</a></label>
                         </div>
 
-                        <a href="" class="sp-button">SEND</a>
+                        <button class="sp-button">send</button>
+                        <!-- <a href="" class="sp-button">SEND</a> -->
                     </div>
                 </form>
             </div>
@@ -222,15 +228,15 @@ const  t-amiine  = {
     <!-- FOOTER SECTION -->
     <footer>
         <div class="container d-flex">
-            <h3>2023 - All Right Reserved</h3>
-            <h3>Portfolio Website  :)</h3>
+            <h3>All Right Reserved &copy;</h3>
+            <h3>Portfolio Website</h3>
         </div>
 
     </footer>
 
    <!-- RETURN TO THE TOP -->
    <div class="sp-retourn">
-        <a href="#top"><span>Rt</span></a>
-   </div> 
+        <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+   </div>
 </body>
 </html>
