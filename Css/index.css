@@ -1,0 +1,205 @@
+* {font-family: 'Alegreya Sans SC', sans-serif; padding: 0; margin: 0;}
+ul  {list-style: none; display: flex;}
+a {text-decoration: none;}
+.container {width: 85%; margin: 0 auto; justify-content: space-between; align-items: center;}
+header {
+    height: 80px;
+    background-color: #EAEAEA;
+}
+header .container {
+    height: 80px;
+    display: flex;
+}
+header a {
+    padding: 10px 15px;
+    margin: 0 5px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 18px;
+}
+a:hover {color: rgb(23, 23, 121);}
+
+/* ================================================================================== */ 
+/* ================================================================================== */ 
+.hero,
+#AboutMe,
+#Education,
+#Projects,
+#Blog,
+#contactMe,
+footer {
+    margin-top: 120px;  
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.last-proj h1,
+.p-Head h1,
+.P-Body h1,
+.last-project h1{
+    font-weight: 900;
+}
+.sp-button,
+.sp-button-rev {
+    padding: 8px 25px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #000000;
+    border: 2px solid #000000;
+}
+.sp-button-rev {
+    color: #000000;
+    background-color: #ffffff;
+}
+.sp-button:hover {
+    color: #000000;
+    background-color: #dddddd;
+    transition-duration: 1s;
+}
+.sp-button-rev:hover {
+    transition-duration: 1s;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/* ================================================================================== */ 
+/* ================================================================================== */ 
+.hero {height: 141px;}
+.h-First h1, 
+.h-First h3 {
+    font-size: 50px;
+    font-weight: 900;
+}
+.h-First h3 {
+    font-size: 25px;
+}
+.h-Second p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+/* ======================================================================================== */
+#AboutMe {
+    background-color: #000000;
+    padding: 35px 0;
+    height: auto;
+}
+#AboutMe .container {
+    font-weight: 700;
+    font-size: 19px;
+    color: #ffffff;
+}
+/* ======================================================================================== */
+.p-Head {height: 50px; align-items: center;}
+.pHead h1 {font-size: 30px;}
+#Projects .P-Body {
+    margin-top: 20px;
+}
+.proj-details{
+    width: 45%;
+    background-color: #eaeaea;
+    padding: 20px 15px;
+    align-items: center;
+}
+.proj-details p,
+.last-project p {
+    font-weight: 500;
+}
+.last-project {
+    background-color: #eaeaea;
+    align-items: center;
+    padding: 20px 15px;
+    margin: 20px 0 0 0 ;
+}
+/* =============================================================================== */
+.p-Body .article {
+    width: 45%; 
+    margin-top: 20px;
+    background-color: #eaeaea;
+}
+.p-Body .article .article-info {padding: 20px 15px;}
+.p-Body .article .article-info p {
+    font-weight: 600;
+    margin: 8px 0;
+}
+.p-Body .article .article-info span {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+/* =============================================================================== */
+.social-links {
+    background-color: #dddddd;
+    width: 20%;
+    height: 100px;
+}
+.social {padding: 15px;}    
+.contact-form {width: 70%; background-color: #eaeaea; padding: 15px;}
+input, textarea {
+    height: 40px;
+    background-color: transparent;
+    border: 0;
+    margin-left: 20px;
+}
+.f-row div {width: 45%;}
+.f-row input {
+    position: relative;
+    width: 70%;
+}
+.email-input input{ width: 95%;}
+.contact-form .brd {
+    background-color: #f5f5f5;
+    margin: 0 0 20px 0;
+    border: 3.5px solid #000000;
+}
+.brd span{
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #000000;
+    padding: 5px 15px;
+    margin: 0 0 0 5px;
+    font-weight: 600;
+}
+.terms input {
+    margin: 0;
+    margin: 0 10px 0 0;
+}
+.pr-term {
+    display: flex;
+    align-items: center;
+}
+.terms label {
+    font-size: 18px;
+    font-weight: 600;
+}
+button {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #000000;
+    border: 0;
+    color: #ffffff;
+    cursor: pointer;
+}
+/* ======================= */
+.sp-retourn {
+    position: absolute;
+    bottom: 5%;
+    right: 1%;
+}
+.sp-retourn span{
+    background-color: red;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+}
+/* ===================================================== */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 0;
+}
